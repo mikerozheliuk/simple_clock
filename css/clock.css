@@ -1,0 +1,14 @@
+.clock {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 500ms;
+}
+
+.clock__content {
+    font-size: max(50px, 10vh);
+    filter: invert(100%);
+    transition: all 500ms;
+}
